@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">⚡ Autonomous Quant Swarm</h1>
+  <h1 align="center">Autonomous Quant Swarm</h1>
   <p align="center">
     <strong>An AI-powered quantitative research agent that autonomously researches markets, formulates trading hypotheses, writes & executes backtests, and learns from results.</strong>
   </p>
@@ -15,7 +15,7 @@
 
 ---
 
-## 🧠 What Is This?
+## What Is This?
 
 Autonomous Quant Swarm is a full-stack application that puts a **ReAct-style AI agent** at the helm of quantitative research. You give it a natural-language prompt — like *"Analyse AAPL and test a momentum strategy over the past 2 years"* — and the agent autonomously:
 
@@ -32,7 +32,7 @@ All reasoning steps are **streamed in real time** to a sleek React dashboard via
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -60,21 +60,21 @@ All reasoning steps are **streamed in real time** to a sleek React dashboard via
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🤖 **Autonomous Agent** | ReAct-style agent loop: Analyse → Hypothesise → Backtest → Evaluate → Iterate |
-| 📊 **Multi-Source Data** | Yahoo Finance (OHLCV, fundamentals), Alpha Vantage (technicals), FRED (macro) |
-| ⚙️ **Automated Backtesting** | Generates and executes full Backtrader strategies in a sandboxed subprocess |
-| 🧠 **Vector Memory** | FAISS-powered long-term memory — learns from past successes and failures |
-| 🔴 **Real-Time Streaming** | WebSocket-based live streaming of every reasoning step, tool call, and result |
-| 🖥️ **Interactive Dashboard** | React UI with reasoning log, code viewer, equity curves, and hypothesis history |
-| 💬 **Chat Interface** | Natural language input — just describe what you want to research |
+| **Autonomous Agent** | ReAct-style agent loop: Analyse → Hypothesise → Backtest → Evaluate → Iterate |
+| **Multi-Source Data** | Yahoo Finance (OHLCV, fundamentals), Alpha Vantage (technicals), FRED (macro) |
+| **Automated Backtesting** | Generates and executes full Backtrader strategies in a sandboxed subprocess |
+| **Vector Memory** | FAISS-powered long-term memory — learns from past successes and failures |
+| **Real-Time Streaming** | WebSocket-based live streaming of every reasoning step, tool call, and result |
+| **Interactive Dashboard** | React UI with reasoning log, code viewer, equity curves, and hypothesis history |
+| **Chat Interface** | Natural language input — just describe what you want to research |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -144,7 +144,7 @@ The dashboard opens at `http://localhost:5173`.
 
 ---
 
-## 🛠️ API Reference
+## API Reference
 
 ### REST Endpoints
 
@@ -165,7 +165,7 @@ The dashboard opens at `http://localhost:5173`.
 
 ---
 
-## 🧰 Agent Tools
+## Agent Tools
 
 The agent has access to the following tools via LangChain function-calling:
 
@@ -182,7 +182,7 @@ The agent has access to the following tools via LangChain function-calling:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AutonomousQuant/
@@ -224,7 +224,7 @@ AutonomousQuant/
 
 ---
 
-## 🧪 Example Prompts
+## Example Prompts
 
 Try these with the agent:
 
@@ -236,7 +236,7 @@ Try these with the agent:
 
 ---
 
-## 📄 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -252,7 +252,7 @@ Try these with the agent:
 
 ---
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 

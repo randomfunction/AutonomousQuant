@@ -1,0 +1,11 @@
+{
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": ["."]
+    }
+  ],
+  "venvPath": ".",
+  "include": ["backend", "main.py"],
+  "pythonVersion": "3.11"
+}
